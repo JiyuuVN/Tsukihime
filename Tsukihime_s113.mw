@@ -1,0 +1,37 @@
+[[Tsukihime|[Назад]]]
+
+<pre>
+*s113
+
+
+bg "image\bg\ima_10.jpg",%type_lcartain_slw
+bg "image\bg\bg_25a.jpg",%type_lcartain_mid
+
+` Брожу по городу. Просто так, без цели.@ Мне что заняться больше нечем?
+br
+bg "image\bg\bg_25a.jpg",%type_crossfade_fst
+ld c,":a;image\tachi\ark_t22.jpg",%type_crossfade_fst
+bg "image\bg\bg_25a.jpg",%type_crossfade_fst
+
+` «Ой...»@
+` Нет, показалось.@ Не встречу я её здесь, а если и встречу, то что скажу?\
+
+` Почему мне показалось, что это она?@ Зачем я вообще слоняюсь по городу?@
+br
+` – Пора возвращаться домой.@
+` Я потряс головой, словно прогоняя из неё хмельной туман, а вместе с ним и привидевшуюся мне Арквейд.\
+
+bg "image\bg\ima_10.jpg",%type_crossfade_mid
+
+
+!w1000
+
+
+return
+
+
+</pre>
+
+[[Tsukihime|[Назад]]]
+
+[[Категория:Tsukihime]]

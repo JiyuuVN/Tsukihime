@@ -1,0 +1,122 @@
+[[Tsukihime|[Назад]]]<pre>*s532
+
+
+
+
+;S.E."??"
+wave se2
+
+; ?? : ?? : ??(?)<????>
+bg "image\bg\bg_06a.jpg",%type_nowaitdisp
+;CD-DA??????
+play "*3"
+
+
+ld c,":a;image\tachi\osiete.png",%type_lcartain_mid
+
+!w1000
+cl c,%type_lcartain_mid
+
+
+ld r,":a;image\tachi\cel_t20.jpg",%type_tshutter_mid
+
+` Бонжур!@
+` С вами раздел подсказок для незадачливого Тоно-куна, который снова забрёл в очередной тупик,
+` Настало время для «Научи меня, Сиэль-сенсей!»@
+br
+` Итак, первый урок третьего дня.@ Все последующие уроки будут о маршруте Акихи-сан.\
+
+; ?????? : 01~10 : 01_?01(????)<??????(?)>
+ld l,":a;image\tachi\ark_t30.jpg",%type_lshutter_fst
+
+` – Ння?@ Сенсей, а почему уроки по Хисуи закончились до уроков по Акихе?@
+br
+` Вопрос отклоняется.@
+` Итак, Тоно-кун.@
+` Я понимаю, что ты чувствуешь, но Юмизука-сан в большой беде.@
+br
+` – ???@ Разве это не Шики в опасности?\
+
+` Хватит уже, это серьёзная проблема.@
+` Девушке твоего возраста нужна помощь, так что не время избегать опасности.@
+` Вернись немного назад и обязательно загляни в переулок.@
+` Ну что ж, увидимся в следующем уроке!\
+
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_mid
+
+
+ld c,":a;image\tachi\ark_t31a.jpg",%type_lshutter_fst
+
+` – Я не понимаю...@ Почему Хисуи разобрали раньше Акихи?@
+br
+ld l,":a;image\tachi\ark_t31b.jpg",%type_lshutter_fst
+` – Я совершенно не понимаю.@ Я же главная героиня, а в кадре появляюсь мало, и Шики меня игнорирует!@
+br
+ld r,":a;image\tachi\ark_t31b.jpg",%type_lshutter_fst
+
+` – Не, я не понимаю!@ Это же я-любимая, и даже Сиэль появляется в кадре!@ Но вот меня видно только со спины.@ Да ещё и Саччин по поведению больше похожа на вампира, чем я!@ Что за фигня, Киноко?!\
+
+ld r,":a;image\tachi\ark_t31a.jpg",%type_nowaitdisp
+
+ld l,":a;image\tachi\ark_t31a.jpg",%type_nowaitdisp
+
+ld c,":a;image\tachi\ark_t31b.jpg",%type_nowaitdisp
+
+ld l,":a;image\tachi\ark_t31b.jpg",%type_nowaitdisp
+
+ld c,":a;image\tachi\ark_t31a.jpg",%type_nowaitdisp
+
+ld r,":a;image\tachi\ark_t31b.jpg",%type_nowaitdisp
+
+ld r,":a;image\tachi\ark_t31a.jpg",%type_nowaitdisp
+
+ld l,":a;image\tachi\ark_t31a.jpg",%type_nowaitdisp
+
+ld c,":a;image\tachi\ark_t31b.jpg",%type_nowaitdisp
+
+ld l,":a;image\tachi\ark_t31b.jpg",%type_nowaitdisp
+
+ld c,":a;image\tachi\ark_t31a.jpg",%type_nowaitdisp
+
+ld r,":a;image\tachi\ark_t31b.jpg",%type_nowaitdisp
+
+ld r,":a;image\tachi\ark_t31a.jpg",%type_nowaitdisp
+
+ld l,":a;image\tachi\ark_t31a.jpg",%type_nowaitdisp
+
+ld c,":a;image\tachi\ark_t31b.jpg",%type_nowaitdisp
+
+ld l,":a;image\tachi\ark_t31b.jpg",%type_nowaitdisp
+
+ld c,":a;image\tachi\ark_t31a.jpg",%type_nowaitdisp
+
+ld r,":a;image\tachi\ark_t31b.jpg",%type_nowaitdisp
+
+br
+br
+br
+br
+br
+br
+br
+` – Я этого совершенно не понимаю.@ Не понимаю, не понимаю!!!\
+
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_mid
+
+;CD-DA??
+playstop
+
+
+
+
+
+return
+
+
+
+
+</pre>[[Tsukihime|[Назад]]][[Категория:Tsukihime]]

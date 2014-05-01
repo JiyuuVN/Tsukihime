@@ -1,0 +1,42 @@
+[[Tsukihime|[Назад]]]
+
+{{TnM:T|[[Участник:Tsuki no Mai|Tsuki no Mai]] 17:54, 16 января 2011 (MSK)}}
+
+<pre>
+*s229
+
+
+
+bg "image\bg\bg_01b.jpg",%type_lcartain_mid
+
+` Мы выходим за ворота.@
+` Здесь наши пути расходятся.@
+br
+
+ld c,":a;image\tachi\cel_t03.jpg",%type_crossfade_mid
+` – Ну, пора прощаться.@ Быстро мы до сюда добрались.@
+` Да уж...@ Хотелось бы мне, чтобы школа была побольше.\
+
+` – Ну, до завтра, Семпай.@
+
+ld c,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
+
+` – Да, увидимся в школе.@
+
+cl c,%type_lshutter_mid
+
+` Ответив с улыбкой, Семпай разворачивается и уходит.@
+; О_о
+` Проводив её взглядом, я направляюсь в особняк.\
+
+
+bg "image\bg\ima_10.jpg",%type_lcartain_slw
+
+return
+</pre>
+
+[http://files.jiyuu-vn.ru/Mai/%d0%a1%d1%82%d0%b5%d0%bd%d0%b4%d1%8b/229/%d0%a1%d1%82%d0%b5%d0%bd%d0%b4%20-%20229.7z Стенд]<br>[http://files.jiyuu-vn.ru/Mai/%d0%a1%d1%82%d0%b5%d0%bd%d0%b4%d1%8b/229/nscript.dat nscript.dat]
+
+[[Tsukihime|[Назад]]]
+
+[[Категория:Tsukihime]]

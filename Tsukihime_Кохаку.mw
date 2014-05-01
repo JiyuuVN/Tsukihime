@@ -1,0 +1,26 @@
+<imagemap>
+Image:Kohaku.png|
+
+rect 21 16 119 52 [[Tsukihime:Темная_Сторона_Луны|Тёмная сторона Луны]]
+rect 146 8 240 58 [[Tsukihime:s324]]
+rect 147 82 240 132 [[Tsukihime:s416]]
+rect 88 190 182 239 [[Tsukihime:s417]]
+rect 203 190 297 240 [[Tsukihime:s418]]
+rect 146 271 240 323 [[Tsukihime:s419]]
+rect 88 371 183 422 [[Tsukihime:s420]]
+rect 203 371 299 421 [[Tsukihime:s421]]
+rect 146 478 240 528 [[Tsukihime:s422]]
+rect 254 634 347 685 [[Tsukihime:s423]]
+rect 147 634 239 685 [[Tsukihime:s424]]
+rect 146 725 239 774 [[Tsukihime:s425]]
+rect 320 725 413 774 [[Tsukihime:s426]]
+rect 500 724 595 774 [[Tsukihime:s543]]
+rect 145 840 240 890 [[Tsukihime:s427]]
+rect 319 888 414 940 [[Tsukihime:s428]]
+rect 500 889 595 941 [[Tsukihime:s544]]
+rect 116 1013 270 1094 [[Tsukihime:s429]]
+rect 351 1045 447 1097 [[Tsukihime:s545]]
+rect 257 1169 360 1204 [[Tsukihime]]
+
+desc none
+</imagemap>

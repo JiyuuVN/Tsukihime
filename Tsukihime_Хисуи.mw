@@ -1,0 +1,43 @@
+<imagemap>
+Image:Hisui.png|
+
+rect 33 14 132 50 [[Tsukihime:Темная_Сторона_Луны|Тёмная сторона Луны]]
+rect 184 80 315 133 [[Tsukihime:s323]]
+rect 37 156 133 208 [[Tsukihime:s414]]
+rect 202 156 297 207 [[Tsukihime:s386]]
+rect 96 255 190 305 [[Tsukihime:s387]]
+rect 202 254 297 305 [[Tsukihime:s388]]
+rect 310 254 405 305 [[Tsukihime:s389]]
+rect 202 337 297 388 [[Tsukihime:s390]]
+rect 202 411 297 462 [[Tsukihime:s391]]
+rect 202 502 297 553 [[Tsukihime:s392]]
+rect 368 502 463 553 [[Tsukihime:s393]]
+rect 202 575 297 627 [[Tsukihime:s394]]
+rect 203 675 296 725 [[Tsukihime:s395]]
+rect 369 674 462 724 [[Tsukihime:s396]]
+rect 548 674 643 725 [[Tsukihime:s528]]
+rect 145 774 239 825 [[Tsukihime:s397]]
+rect 260 774 354 824 [[Tsukihime:s398]]
+rect 203 855 296 905 [[Tsukihime:s399]]
+rect 146 955 238 1005 [[Tsukihime:s400]]
+rect 259 955 388 1004 [[Tsukihime:s401]]
+rect 203 1045 296 1094 [[Tsukihime:s402]]
+rect 261 1153 353 1201 [[Tsukihime:s403]]
+rect 145 1153 239 1202 [[Tsukihime:s404]]
+rect 203 1234 296 1284 [[Tsukihime:s405]]
+rect 261 1342 354 1392 [[Tsukihime:s406]]
+rect 145 1341 239 1391 [[Tsukihime:s407]]
+rect 203 1448 298 1498 [[Tsukihime:s408]]
+rect 203 1638 295 1687 [[Tsukihime:s409]]
+rect 351 1497 445 1547 [[Tsukihime:s410]]
+rect 531 1497 628 1547 [[Tsukihime:s529]]
+rect 177 1836 323 1916 [[Tsukihime:s412]]
+rect 417 1868 511 1919 [[Tsukihime:s530]]
+rect 322 1991 424 2026 [[Tsukihime]]
+rect 556 1672 702 1752 [[Tsukihime:s413]]
+rect 795 1703 890 1753 [[Tsukihime:s531]]
+rect 703 1828 803 1862 [[Tsukihime]]
+
+desc none
+</imagemap>
+<br>...
