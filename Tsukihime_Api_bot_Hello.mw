@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale id="en-US" fontID="locale_latin" fontResource="support/fonts/locale_latin.swf" languageName="Русский">
+	<!-- Miscellaneous -->
+	<dateTime id="short_date" format="D/M/YY"/>
+	<dateTime id="long_date" format="D MMMM, YYYY"/>
+	<string id="month_name_january" text="Январь" />
+	<string id="month_name_february" text="Февраль" />
+	<string id="month_name_march" text="Март" />
+	<string id="month_name_april" text="Апрель" />
+	<string id="month_name_may" text="Май" />
+	<string id="month_name_june" text="Июнь" />
+	<string id="month_name_july" text="Июль" />
+	<string id="month_name_august" text="Август" />
+	<string id="month_name_september" text="Сентябрь" />
+	<string id="month_name_october" text="Октябрь" />
+	<string id="month_name_november" text="Ноябрь" />
+	<string id="month_name_december" text="Декабрь" />
+	<string id="unit_number" text="Раздел {$unitNumber}"/>
+	<string id="lesson_number" text="Урок {$lessonNumber}"/>
+	<string id="level_number" text="Уровень {$levelNumber}"/>
+	
+	<string id="misc_ok" text="OK"/>
+	<string id="misc_cancel" text="Отмена"/>
+	<string id="brand_url" text="{$baseWebURL}"/>
+	
+	<!-- Quit confirmation -->
+	<string id="quit_confirmation_description" text="Вы действительно хотите выйти из {$brandName} Версия 3?" />
+	<string id="quit_confirmation_dont_show" text="Да, и больше не показывать мне это сообщение" />
+	
+	<!-- Data installation screens -->
+	<string id="manage_languages_main_menu_add" text="Добавить уровень языка"/>
+	<string id="manage_languages_main_menu_remove" text="Удалить уровень языка"/>
+	<string id="manage_languages_main_menu_advanced" text="Деактивировать продукты"/>
+	<string id="manage_languages_main_menu_cancel" text="Отмена"/>
+	<string id="manage_languages_main_menu_quit" text="Выйти из {$brandName}"/>
+	<string id="manage_languages_remove_language_confirmation_description" text="Вы собираетесь удалить &quot;{$productName}&quot;. А оно точно надо?" />
+	<string id="manage_languages_remove_language_confirmation_yes" text="Да" />
+	<string id="manage_languages_remove_language_confirmation_no" text="Нет" />
+	<string id="manage_languages_remove_language_progress_label" text="Удаляю файлы языкового пакета - подождите, пожалуйста." />
+	<string id="manage_languages_remove_language_dialog_description" text="&quot;{$productName}&quot; успешно удалена." />
+	<string id="manage_languages_remove_language_dialog_yes" text="Вернуться к «Установке и удалению языковых пакетов»" />
+	<string id="manage_languages_add_language_insert_cd_description" text="Пожалуйста, вставте CD с файлами языкового пакета в CD-ROM." />
+	<string id="manage_languages_add_language_insert_cd_continue" text="Продолжить" />
+	<string id="manage_languages_add_language_insert_cd_cancel" text="Вернуться к «Установке и удалению языковых пакетов»" />
+	<string id="manage_languages_add_language_no_data_found_description" text="Не было найдено подходящих дисков. Убедитесь, что нужный диск в приводе." />
+	<string id="manage_languages_add_language_no_data_found_try_again" text="Попробовать ещё раз" />
+	<string id="manage_languages_add_language_no_data_found_cancel" text="Вернуться к «Установке и удалению языковых пакетов»" />
+	<string id="manage_languages_add_language_choose_drive_description" text="Выберите языковой пакет, который хотите установить." />
+	<string id="manage_languages_add_language_choose_drive_install" text="Установить выбранный языковой пакет" />
+	<string id="manage_languages_add_language_choose_drive_cancel" text="Вернуться к «Установке и удалению языковых пакетов»" />
+	<string id="manage_languages_add_language_call_support_description" text="Во время поиска диска с языковым пакетом, возникла проблема. Обратитесь к брошюре Quick Start или посетите {$baseWebURL}/Support." />
+	<string id="manage_languages_add_language_call_support_ok" text="Вернуться к «Установке и удалению языковых пакетов»" />
+	<string id="manage_languages_add_language_progres_label" text="Установка &quot;{$productName}&quot;" />
+	<string id="manage_languages_add_language_complete_description" text="&quot;{$productName}&quot; успешно установился." />
+	<string id="manage_languages_add_language_complete_continue" text="Продолжить" />
+	<string id="manage_languages_add_language_complete_return_to_main" text="Добавить другой языковой пакет" />
+	<string id="manage_languages_remove_language_choose_language_description" text="Выберите уровень языка для удаления."/>
+	<string id="manage_languages_remove_language_choose_language_remove_selected" text="Удалить выбранный язык"/>
+	<string id="manage_languages_remove_language_choose_language_return_to_main" text="Вернуться к «Установке и удалению языковых пакетов»"/>
+	<string id="manage_languages_remove_language_choose_language_description" text="Выберите уровень языка для удаления."/>
+	<string id="manage_languages_return_language_confirmation_description" text="Внимание! Деактивация языкового пакета необратима. Продолжить?"/>
+	<string id="manage_languages_return_language_confirmation_no" text="Нет, вернуться к «Установке и удалению языковых пакетов»"/>
+	<string id="manage_languages_return_language_confirmation_yes" text="Да, продолжить деактивацию"/>
+	<string id="data_installation_advanced_uninstalled_list_description" text="Следующие продукты уже удалены.
+Обратитесь в брошюре Quick Start или посетите {$baseWebURL}/Support." />
+	<string id="data_installation_advanced_uninstalled_list_ok" text="Вернуться к «Деактивация продуктов»" />
+	<string id="data_installation_advanced_uninstalled_list_cancel" text="Вернуться к «Установке и удалению языковых пакетов»" />
+	<string id="data_installation_advanced_return_confirmation_description" text="Следующие продукты установлены на ваш компьютер.
+Пожалуйста, деактивируйте продукты только если Вас об этом попросит Служба поддержки клиентов.  Обратитесь к брошюре Quick Start или посетите {$baseWebURL}/Support."/>
+	<string id="data_installation_advanced_return_confirmation_view_returned" text="Посмотреть деактивированные продукты" />
+	<string id="data_installation_advanced_return_confirmation_return_selected" text="Деактивировать выбранные продукты" />
+	<string id="data_installation_advanced_return_confirmation_return_to_main" text="Вернуться к «Установке и удалению языковых пакетов»" />
+	<string id="data_installation_advanced_installation_contact_instructions_description" text="Следующие продукты были деактивированы.
+Пожалуйста свяжитесь со Службой поддержки клиентов для завершения этого процесса. Представитель Службы поддержки спросит Вас про эти числа." />
+	<string id="data_installation_advanced_installation_contact_instructions_continue" text="Завершить деактивацию" />
+	<string id="manage_languages_return_language_progres_label" text="Завершение деактивации - подождите, пожалуйста." />
+	<string id="manage_languages_return_language_complete_description" text="Следующие продукты были деактивированы:
+{$productNames}" />
+	<string id="manage_languages_return_language_complete_ok" text="Продолжить" />
+	<string id="manage_languages_data_installation_dll_error" text="Не удалось установить языковой пакет.  Для оказания вам помощи, пожалуйста, свяжитесь со Службой поддержки клиентов." />
+	<string id="manage_languages_data_removal_dll_error" text="Не удалось удалить языковой пакет.  Для оказания вам помощи, пожалуйста, свяжитесь со Службой поддержки клиентов." />
+	<string id="manage_languages_data_update_dll_error" text="Не удалось обновить языковой пакет.  Для оказания вам помощи, пожалуйста, свяжитесь со Службой поддержки клиентов." />
+	<string id="data_installation_advanced_uninstalled_list_renderer_activation_id" text="Код активации (Activation ID)" />
+	<string id="data_installation_advanced_uninstalled_list_renderer_deactivation_id" text="Код деактивации" />
+	<string id="manage_languages_add_language_installer_not_found" text="Не могу найти программу установки для {$brandName}. Для добавления новых языковых пакето переустановите {$brandName}. При этом список установленных языковых пакетов и история обучения не пострадают."/>
+	<string id="manage_languages_add_language_abort" text="Установка &quot;{$productName}&quot; была прервана до её окончания. Нажмите кнопку «Завершить» для того чтобы вернуться к «Установке и удалению языковых пакетов»."/>
+	<string id="manage_languages_add_language_insuffiencent_space" text="На указанном диске недостаточно места для установки &quot;{$productName}&quot;. Программа установки завершит свою работу."/>
+	<string id="select_language_data_directory_low_space" text="Выбранный вами раздел способен вместить не более трёх (3) различных языковых пакетов.  Всё равно хотите использовать его?"/>
+	<string id="select_language_data_directory_low_space_use_current" text="Да, пусть будет там."/>
+	<string id="select_language_data_directory_low_space_choose_new" text="Нет, выбрать другое место."/>
+	<string id="select_language_data_directory_insuficient_space" text="На выбранном разделе не хватает места для установки языкового пакета."/>
+	<string id="select_language_data_directory_insuficient_space_choose_new" text="Выбрать другое место."/>
+	<string id="manage_languages_add_language_in_progress" text="Установка &quot;{$productName}&quot; 
+{$timeRemaining}" />
+	<string id="manage_languages_add_language_find_languages" text="Поиск языковых пакетов..." />
+	<string id="manage_languages_add_language_in_progress_calculating" text="Вычисление времени под установку..." />
+	<string id="manage_languages_add_language_in_progress_minutes" text="Осталось приблизительно {$minutes} минут" />
+	<string id="manage_languages_add_language_in_progress_one_minute" text="Осталось около минуты" />
+	<string id="manage_languages_add_language_in_progress_less_than_one" text="Осталось меньше минуты" />
+	<string id="manage_languages_remove_language_in_progress" text="Удаляю языковой пакет - подождите, пожалуйста." />
+	
+	<!-- Manage Language Products Confirmation Box -->
+	<string id="install_older_version" text="A newer version of this Language Level already exists on your computer.    Are you sure you want to overwrite the existing Language files?"/>
+	<string id="install_newer_version" text="An older version of this Language Level already exists on your computer.  Do you want to update the Language files?"/>
+	<string id="install_same_version" text="This Language Level already exists on your computer.  Are you sure you want to reinstall the existing Language files?"/>
+	<string id="confirmation_yes" text="Yes"/>
+	<string id="confirmation_no" text="No"/>
+	<string id="install_select_data_location" text="Select a location for your language"/>
+	<string id="uninstall_all_language_data" text="Uninstall all language files"/>
+	
+	<!-- Local Login -->
+	<string id="local_login_continue_button" text="Start"/>
+	<string id="local_login_add_user_button" text="Add a user"/>
+	<string id="local_login_delete_user_button" text="Remove this user"/>
+	<string id="local_login_save_button" text="Save changes"/>
+	<string id="local_login_cancel_button" text="Cancel"/>
+	<string id="local_login_createuser" text="Create a user:"/>
+	<string id="local_login_gender_male" text="Male"/>
+	<string id="local_login_gender_female" text="Female"/>
+	<string id="local_login_child" text="Under 14?"/>
+	<string id="local_login_gender_subtext" text="{$brandName} Speech Recognition performs best when it knows your voice type:"/>
+	<string id="local_login_confirm_delete" text="Are you sure that you want to remove this user ({$userName})?  This action cannot be undone!"/>
+	<string id="local_login_confirm_delete_yes" text="Yes, remove this user"/>
+	<string id="local_login_confirm_delete_no" text="No"/>
+	<string id="local_login_max_users" text="This edition of {$brandName} allows only 5 user profiles on one computer." />
+	<string id="local_login_duplicate_user" text="A user with this name already exists. Please choose a different username." />
+	<string id="local_login_bad_username" text="You must enter a valid username: 1-30 characters." />
+	<string id="local_login_deleting_user" text="Removing User..."/>
+	
+	<!-- Viper Login -->
+	<string id="viper_login_username_label" text="Username:"/>
+	<string id="viper_login_password_label" text="Password:"/>
+	<string id="viper_login_server_label" text="Service:"/>
+	<string id="viper_login_login_button" text="Sign in"/>
+	<string id="viper_login_service_entry_title" text="Enter IP address or hostname:"/>
+	<string id="viper_login_service_entry_example" text="(examples: 192.168.23.1, server.yourschool.edu, server.yourcompany.com)"/>
+	
+	<!-- Progress Bar Text -->
+	<string id="progress_loading_data" text="Loading files..."/>
+	<string id="progress_loading_next_screen" text="Loading Next Screen..."/>
+	<string id="progress_init_language_data" text="Loading Language files..."/>
+	<string id="progress_init_user_data" text="Loading User files..."/>
+	<string id="progress_init_speech_data" text="Loading Speech files..."/>
+	<string id="progress_init_course_data" text="Loading Course files..."/>
+	<string id="progress_init_path_data" text="Loading Activity files..."/>
+	<string id="progress_update_coreplayer_data" text="Updating Your Progress..."/>
+	<string id="progress_status" text="Status: {$status}"/>
+	<string id="progress_connecting_speech_wrapper" text="Connecting to speech components..."/>
+	<string id="progress_connected_speech_wrapper" text="Connected"/>
+	<string id="progress_downloading_speech_engine" text="Downloading speech engine..."/>
+	<string id="progress_starting_speech_engine" text="Starting speech engine..."/>
+	<string id="progress_connecting_speech_engine" text="Connecting to speech engine..."/>
+	<string id="progress_connected_speech_engine" text="Speech engine connected"/>
+
+	<!-- Course Selection -->
+	<string id="course_selection_continue_button" text="Continue"/>
+	<string id="course_selection_choose_course" text="Choose Language Level:"/>
+	<string id="course_selection_switch_user_button" text="Switch user"/>
+	
+	<!-- Speech Version Check -->
+	<string id="speech_version_out_of_date_description" text="{$brandName} needs additional information in order to run this course with speech enabled. Please choose one of the options below."/>
+	<string id="speech_verson_download_installer" text="Download the update"/>
+	<string id="speech_version_disable_speech" text="Continue with speech disabled for this session"/>
+
+	<!-- User Goals -->
+	<string id="user_goals_course_setup" text="Select your course:"/>
+	<string id="user_goals_continue_button" text="Next"/>
+	<string id="user_goals_switch_user_button" text="Switch user"/>
+	<string id="user_goals_switch_course_button" text="Switch Language Level"/>
+	<string id="user_goals_recommended" text="Recommended"/>
+	<string id="user_goals_type_standard" text="Reading, Writing, Speaking and Listening"/>
+	<string id="user_goals_type_extended" text="Reading, Writing, Speaking and Listening - Extended"/>
+	<string id="user_goals_type_speaking_and_listening" text="Speaking and Listening"/>
+	<string id="user_goals_type_reading_and_writing" text="Reading and Writing"/>
+	<string id="user_goals_type_teach_me_alphabet" text="Learn letters and sounds"/>
+	<string id="user_goals_alphabet_disclaimer" text="Your first Reading Activities introduce the sounds that letters make. If you’re already comfortable with this material, or do not want to focus on learning the letters, uncheck the box above to skip the activities on letters and sounds."/>
+	<string id="user_goals_change_course_main" text="Changing your course will add some activities to your course and remove others.  You can complete the new activities to update your course progress.  We recommend that you only change your course if your language learning goals have changed.  Are you sure you want to change your course?"/>
+	<string id="user_goals_change_course_yes" text="Yes"/>
+	<string id="user_goals_change_course_no" text="No"/>
+	<string id="user_goals_loading_course" text="Loading your course..."/>
+	<string id="user_goals_curriculum_description_header" text="Description"/>
+	<string id="user_goals_curriculum_length_header" text="Length"/>
+	
+	<!-- App Update screen(s) -->
+	<string id="app_updater_checking_for_updates" text="Checking for Updates" />
+	<string id="app_updater_dialog_button" text="OK" />
+	<string id="app_updater_no_updates_available" text="Your {$brandName} application is currently up to date." />
+	<string id="app_updater_download_update" text="Update now" />
+	<string id="app_updater_do_not_download" text="Remind me later" />
+	<string id="app_updater_downloading_update" text="Downloading update" />
+	<string id="app_updater_downloading_update_n_of_n" text="Downloading update {$current} of {$total}" />
+	<string id="app_updater_verifying_update_n_of_n" text="Verifying update {$current} of {$total}" />
+	<string id="app_updater_update_restart_message" text="The update has successfully downloaded.
+Your {$brandName} application will now restart." />
+	<string id="app_updater_update_restart_button" text="OK" />
+	<string id="app_updater_cannot_connect" text="Your {$brandName} application cannot currently check for updates.
+If you are not connected to the Internet, please connect and try again." />
+	<string id="app_updater_cannot_connect_try_again" text="Try again" />
+	<string id="app_updater_cannot_connect_check_later" text="Check later" />
+	<string id="app_updater_cannot_connect_disable_check" text="Do not check for updates again" /> 
+ 	<string id="app_updater_cannot_connect_disable_message" text="Your system will not check for updates automatically.
+To check for updates later, or to re-enable automatic updates, go to the Preferences menu in the Toolbar, select Set Preferences, then click the Program Settings tab." /> 
+	<string id="app_updater_download_error" text="There was an error downloading the {$brandName} application update.
+Please try again later." />
+	<string id="app_updater_download_cancelled" text="The {$brandName} download was cancelled. "/>
+	<string id="app_updater_download_stalled" text="The {$brandName} download seems to have stalled. Would you like to continue trying to download the update? "/>
+	<string id="app_updater_installing_updates" text="Installing updates..." />
+	<string id="app_updater_updates_available" text="An update is available for your {$brandName} Version 3 application.
+Would you like to download this update now?
+Your application will restart when the update is complete." />
+	<string id="application_name" text="{$brandName} Version 3"/>
+	
+	<!-- Preferences screen -->
+	<string id="preferences_check_for_updates" text="Check for Updates" />
+	<string id="preferences_update_product" text="Application Update Settings" />
+	<string id="preferences_auto_check_for_updates" text="Automatically check for updates" />
+	<string id="preferences_apply_changes" text="Apply Changes"/>	
+	<string id="preferences_cancel_changes" text="Cancel Changes"/>	
+	<string id="preferences_my_settings_tab" text="My Settings"/>	
+	<string id="preferences_auto_advance" text="Continue automatically to next screen"/>
+	<string id="preferences_speech_recognition_title_label" text="Speech Recognition Settings"/>
+	<string id="preferences_use_speech" text="Use speech recognition"/>
+	<string id="preferences_speech_difficulty" text="Speech Precision Level"/>
+	<string id="preferences_speech_difficulty_easy" text="Easy"/>
+	<string id="preferences_speech_difficulty_normal" text="Normal"/>
+	<string id="preferences_speech_difficulty_medium" text="Medium"/>
+	<string id="preferences_speech_difficulty_hard" text="Difficult"/>
+	<string id="preferences_speech_difficulty_custom" text="Custom"/>
+	<string id="preferences_speech_voice_type" text="Voice Type:"/>
+	<string id="preferences_window_mode_title_label" text="Window Display:"/>
+	<string id="preferences_window_mode_window" text="Window"/>
+	<string id="preferences_window_mode_full_screen" text="Full Screen"/>
+	<string id="preferences_system_settings_tab" text="Program Settings"/>
+	<string id="preferences_locale_title_label" text="{$brandName} Interface Language:"/>
+	<string id="preferences_microphone_soundcard_title_label" text="Primary Microphone:"/>
+	<string id="preferences_microphone_title_label" text="Primary Microphone:"/>
+	<string id="preferences_course_settings_tab" text="Course Settings"/>
+	<string id="preferences_typing_mode_difficulty_title_label" text="Typing Precision:"/>
+	<string id="preferences_case_sensitive" text="Case sensitive"/>
+	<string id="preferences_punctuation_sensitive" text="Punctuation sensitive"/>
+	<string id="preferences_diacritic_sensitive" text="Diacritic sensitive"/>
+	<string id="preferences_script_system" text="Script system"/>
+	<string id="preferences_keyboard_layout" text="Keyboard layout"/>
+	<string id="preferences_curriculum_title_label" text="Your Course:"/>
+	<string id="preferences_curriculum_change" text="Change your course settings"/>
+	<string id="preferences_curriculum_alphabet" text="Learn letters and sounds"/>
+	<string id="preferences_loading_locale" text="Loading Interface..."/>
+	<string id="preferences_disable_feedback_sounds" text="Disable Answer Sounds"/>
+    <string id="preferences_audio_settings_tab" text="Audio Settings"/>
+    <string id="preferences_microphone_setup" text="Microphone Setup"/>
+    <string id="preferences_feedback_sounds_title_label" text="Answer Sounds Settings"/>
+	
+	<!-- Splash Screen -->
+	<string id="version" text="Версия {$majorVersion} ( {$majorVersion}.{$minorVersion}.{$bugfixVersion} - {$revision} )"/>
+	<string id="usage_notice_demo" text=" "/>	
+	<string id="usage_notice_home" text=" "/>
+	<string id="usage_notice_educational" text=" "/>			
+	<string id="usage_description_home" text=" "/>
+	<string id="usage_description_educational" text=" "/>
+	
+	<!-- Home screen -->
+	<string id="in_progress" text="In Progress"/>
+	<string id="percent_score" text="{$percent}%"/>
+	<string id="last_access_date" text="{$date}"/>
+	<string id="estimated_time" text="About {$approximate_time} minutes"/>
+	<string id="actual_time_singular" text="{$numberOfMinutes} minute"/>
+	<string id="actual_time_plural" text="{$numberOfMinutes} minutes"/>
+	
+	<!-- Tool Tips -->
+	<string id="coreplayer_preview" text="Ответы"/>
+	<string id="course_button" text="Нажмите, чтобы увидеть «Все курсы»"/>
+	<string id="keyboard_deadkey_tooltip" text="Нажмите, чтобы вставить букву с этим диакретическим знаком."/>
+	<string id="keyboard_enter_tooltip" text="Нажмите Ввод, чтобы проверить вашу успеваемость."/>
+	<string id="keyboard_shift_tooltip" text="Нажмите, чтобы увидеть дополнительные символы или сделать следующую букву заглавной."/>
+	<string id="keyboard_capslock_tooltip" text="Нажмите, чтобы включить или выключить письмо заглавными буквами."/>
+	
+	<!-- Level screen -->
+	<string id="unit_label" text="{$unitNumber}: {$unitName}"/>
+	<string id="unit_lesson_label" text="{$unitName} > {$lessonName}"/>
+	<string id="unit_lesson_path_label" text="{$unitName} > {$lessonName} > {$pathName}"/>
+	<string id="continue_button_label" text="Продолжить"/>
+	<string id="continue_button_label_first_time" text="Начать"/>
+	<string id="skip_button_label" text="Не учитывать предыдущие достижения в этом уроке"/>
+	<string id="skip_confirm_main" text="Хотите не учитывать все предыдущие достижения в этом уроке?"/>
+	<string id="skip_confirm_yes" text="Пропустить все предыдушие достижения"/>
+	<string id="skip_confirm_no" text="Нет"/>
+	<string id="explore_view_button_label" text="Просмотреть доступные уроки для Раздела {$unitNumber}"/>
+	<string id="course_view_button_label" text="Вернуться к вашему курсу"/>
+	<string id="course_activities_label" text="Your selected course for Unit {$unitNumber}"/>
+	<string id="activities_label" text="Просмотреть доступные уроки для Раздела {$unitNumber}"/>
+	<string id="review_path_label" text="Самое время погодить с новыми уроками и освежить в памяти предыдушие.  Прошлый раз, {$lastDate}, вы набрали {$lastScore}%"/>
+	<string id="reset_path_main" text="Do you want to continue your current progress in this activity?"/>
+	<string id="reset_path_yes" text="Yes, continue my current progress"/>
+	<string id="reset_path_no" text="No, reset my score and restart this activity"/>
+	<string id="reset_path_only_main" text="Do you want to reset your score and restart this activity?"/>
+	<string id="reset_path_only_yes" text="Yes, reset my score and restart"/>
+	<string id="reset_path_only_no" text="No, return me to the Home Screen"/>
+	<string id="path_type_general" text="Ключевой урок"/>
+	<string id="path_type_listening" text="Речь"/>
+	<string id="path_type_speaking" text="Говорение"/>
+	<string id="path_type_pronunciation" text="Произношение"/>
+	<string id="path_type_reading" text="Чтение"/>
+	<string id="path_type_early_reading" text="Чтение"/>
+	<string id="path_type_writing" text="Письмо"/>
+	<string id="path_type_grammar" text="Грамматика"/>
+	<string id="path_type_parrot_milestone" text="Веха"/>
+	<string id="path_type_production_milestone" text="Веха"/>
+	<string id="path_type_review" text="Обзор"/>
+	<string id="path_type_lagged_review" text="Adaptive Recall™"/>
+	<string id="path_type_vocabulary" text="Лексика"/>
+	<string id="path_type_listening_and_reading" text="Общение"/>
+	<string id="end_of_level_congrats" text="Congratulations! You have completed {$courseName}."/>
+	<string id="end_of_level_choose" text="Choose a different course"/>
+	<string id="end_of_level_continue" text="Continue to new course"/>
+	<string id="end_of_level_url" text="Visit {$baseWebURL} to explore more language learning opportunities."/>
+	<string id="end_of_level_rosettastone_url" text="http://{$baseWebURL}"/>
+	
+	<!-- Curriculum Build Animation -->
+	<string id="curriculum_build_title" text="Building your selected course for Unit {$unitNumber}"/>
+	<string id="curriculum_build_core_0" text="Adding your first Core Lesson that introduces new material..."/>
+	<string id="curriculum_build_more_0" text="... adding focused activities and reviews that extend and reinforce your first Core Lesson."/>
+	<string id="curriculum_build_core_X" text="Adding another Core Lesson..."/>
+	<string id="curriculum_build_more_1" text="...and more focused activities and reviews"/>
+	<string id="curriculum_build_more_X" text="...and more focused activities and reviews"/>
+	<string id="curriculum_build_more_4" text="Finally, adding a Milestone activity to put you inside the story."/>
+	<string id="curriculum_build_complete" text="Your course is complete!"/>
+	<string id="curriculum_click" text="Click anywhere to continue"/>
+	
+	<!-- Application toolbar -->
+	<string id="sign_out" text="Sign Out"/>
+	<string id="intro_video" text="Learn about Dynamic Immersion™"/>
+	<string id="build_curriculum" text="Build My Course"/>
+	<string id="data_intallation_wizard" text="Add or Remove Languages"/>
+	<string id="product_activation" text="Activate Products"/>
+	<string id="edition_activation" text="Activate Edition" />
+	<string id="wait_delay_quick_toggle" text="Continue to next screen"/>
+	<string id="speech_quick_toggle" text="Use speech recognition"/>
+	<string id="more_preferences" text="Set Preferences"/>
+	<string id="alphabet" text="Alphabet"/>
+	<string id="about_app" text="About {$brandName}"/>
+	<string id="about_language" text="Learning {$languageName}"/>
+	<string id="launch_help_system" text="Help on {$brandName}"/>
+	<string id="welcome_user" text="Welcome, {$userName}"/>
+	<string id="return_to_level_screen" text="Return to Home Screen"/>
+	<string id="return_to_course_selection_screen" text="Select a different Language Level"/>
+	<string id="return_to_login_screen" text="Sign in as a different user"/>
+	<string id="quick_start_guide_link_text" text="Quick Start Guide"/>
+	<string id="user_guide_link_text" text="User's Guide"/>
+	<string id="course_contents_link" text="Course Contents"/>
+	<string id="show_fullScreen" text="Fullscreen Display"/>
+	<string id="show_window" text="Window Display"/>
+	<string id="exit_app" text="Quit {$brandName} Version 3"/>
+	<string id="unit_lesson_path_breadcrumb" text="Unit {$unitNumber} > Lesson {$lessonNumber} > {$pathName}" />
+	<string id="unit_milestone_breadcrumb" text="Unit {$unitNumber} > {$pathName}" />
+	<string id="home_screen_is_current" text="This is the Home Screen"/>
+	
+	<!-- View Installed Products Screens -->
+	<string id="about_installed_languages" text="Versions of installed languages"/>
+	<string id="view_installed_languages_title" text="Versions of installed languages:"/>
+	<string id="not_installed" text="{not installed}"/>
+	
+	<string id="actChoice" text="Click on the picture that matches the phrase."/>
+	<string id="actChoice_link" text="About This Screen"/>
+	<string id="cueChoice" text="Click on the prompt that matches the text or picture below."/>
+	<string id="cueChoice_link" text="About This Screen"/>
+	<string id="tile" text="Click on the correct option."/>
+	<string id="tile_link" text="About This Screen"/>
+	<string id="speech" text="Repeat the phrase you hear, or create a new phrase."/>
+	<string id="speech_link" text="About This Screen"/>
+	<string id="typing" text="Type the text, or click the onscreen keyboard."/>
+	<string id="typing_link" text="About This Screen"/>
+	<string id="milestone" text="Speak a phrase to respond to the conversation."/>
+	<string id="milestone_link" text="About This Screen"/>
+	<string id="pronunciation" text="Repeat the syllable or word."/>
+	<string id="pronunciation_link" text="About This Screen"/>
+	<string id="courseView" text="Click Continue to resume your course."/>
+	<string id="courseView_link" text="About This Screen"/>
+	<string id="exploreView" text="Click an Activity to explore."/>
+	<string id="exploreView_link" text="About This Screen"/>
+	<string id="user_guide_link" text="Launch the User Guide"/>
+	<string id="speechAnalysis" text="Speak and compare graphs with the native speaker."/>
+	<string id="speechAnalysis_link" text="About This Screen"/>
+
+
+	<!-- CorePlayer -->
+	<string id="drag_warning_tip" text="Tip: Just click on your choice."/>
+	<string id="drag_warning_tip_act" text="Tip: Just click on the appropriate choice below."/>
+	<string id="drag_warning_body" text="Activities do not require drag and drop."/>
+	<string id="mic_low_signal" text="We expect you to be speaking here, and we aren’t detecting any input from your microphone. Would you like to launch Microphone Setup?"/>
+	<string id="mic_low_signal_yes" text="Yes, launch setup"/>
+	<string id="mic_low_signal_no" text="No, continue with this activity"/>
+	<string id="end_of_path_or_section_number_correct" text="{$numCorrect} correct"/>
+	<string id="end_of_path_or_section_number_incorrect" text="{$numIncorrect} incorrect"/>
+	<string id="end_of_path_or_section_number_skipped" text="{$numSkipped} skipped"/>
+	<string id="end_of_path_or_section_number_not_seen" text="{$numNotSeen} not seen"/>
+	<string id="end_of_path_or_section_home_button_label" text="Return to Home Screen"/>
+	<string id="end_of_section_message" text="We recommend repeating the previous sequence of activities:"/>
+	<string id="end_of_section_continue_button_label" text="Continue to next section"/>
+	<string id="end_of_section_repeat_button_label" text="Repeat previous section"/>
+	<string id="end_of_path_message" text="You have completed {$pathName}"/>
+	<string id="end_of_path_lag_alarm" text="You'll be prompted to do this activity again on or after: {$nextDate}."/>
+	<string id="end_of_path_continue_button_label" text="Continue to {$nextPathName}"/>
+	<string id="end_of_path_repeat_button_label" text="Repeat {$lastPathName}"/>
+	<string id="end_of_path_display_name_unit_lesson" text="Unit {$unitNumber} > Lesson {$lessonNumber} > {$pathName}"/>
+	<string id="end_of_path_display_name_lesson" text="Lesson {$lessonNumber} > {$pathName}"/>
+	<string id="end_of_path_display_name_unit" text="Unit {$unitNumber} > {$pathName}"/>
+	<string id="return_to_exercise" text="Continue with activity" />
+	
+	<string id="no_pdf_viewer_found" text="This file requires Adobe Reader or another .pdf reader.  Click the link below to go to the Free Adobe Reader download page." />
+	<string id="launch_pdf_installer" text="Download Adobe Reader." />
+	
+	<!-- Pronunciation -->
+	<string id="pronunciation_loading_sound" text="Loading Native Sound #1..."/>
+	<string id="pronunciation_loading_slow_sound" text="Loading Native Sound #2..."/>
+	<string id="pronunciation_loading_slowest_sound" text="Loading Native Sound #3..."/>
+	<string id="pronunciation_analyzing_sound" text="Preparing Language Files..."/>
+	<string id="pronunciation_graphing_sound" text="Preparing Graphs..."/>
+	
+	<!-- Help -->
+	<resource id="help_top_menu" resource="{$brandHelpRoot}/en-US/Default.htm"/>
+	<resource id="help_main_url" resource="{$brandHelpRoot}/en-US/Default_CSH.htm{$anchor}"/>
+	<resource id="rs_help_user_guide" resource="{$brandHelpRoot}/en-US/RosettaStoneUsersGuide.pdf"/>
+	<resource id="rw_help_user_guide" resource="{$brandHelpRoot}/en-US/RosettaWorldUsersGuide.pdf"/>
+	<resource id="help_quick_start_guide" resource="{$brandHelpRoot}/en-US/quick_start_guide.pdf"/>
+	
+	<!-- Intro Video -->
+	<resource id="player_swf" resource="support/video/player.swf?"/>
+	<resource id="intro_media_swf" resource="{$brandIntroVideoRoot}/core_en-US.swf"/>
+	
+	<!-- Reference Section -->
+	<string id="reference_title" text="The Alphabet"/>
+	
+	<!-- Microphone Calibration -->
+	<string id="mic_calibration_title" text="Microphone Setup"/>
+	<string id="mic_calibration_title_complete" text="Audio Setup: Complete"/>
+	<string id="mic_calibration_current_mic" text="Currently selected microphone:"/>
+	<string id="mic_calibration_change_mic" text="Change Microphone"/>
+	<string id="mic_calibration_change_speakers" text="Change Speakers"/>
+            <!-- New workflow strings -->
+
+	<string id="mic_calibration_title_selection" text="Microphone Selection"/>
+	<string id="mic_calibration_first_time" text="You have not yet selected a microphone.  Please select from the list below.  If your microphone does not appear, please plug it in and click Refresh."/>
+	<string id="mic_calibration_subsequent_no_mic" text="Your previously selected microphone is not detected.  Please select from the list below.  To use a different microphone, please plug it in and click Refresh."/>
+	<string id="mic_calibration_current_mic_system" text="The microphone you are currently using is ____.  To change your microphone, go to your system settings.  Contact your system administrator if you need assistance."/>
+	<string id="mic_calibration_continue" text="Continue to Microphone Setup"/>
+	<string id="mic_calibration_turn_speech_off" text="Turn speech OFF for this session and continue"/>
+
+	<string id="mic_calibration_first_time" text="You have not yet selected a microphone.  Please select from the list below.  If your microphone does not appear, please plug it in and click Refresh."/>
+	<string id="mic_calibration_subsequent_no_mic" text="Your previously selected microphone is not detected.  Please select from the list below.  To use a different microphone, please plug it in and click Refresh."/>
+	<string id="mic_calibration_available_mic" text="Available Microphones:"/>
+	<string id="mic_calibration_turn_speech_off" text="Turn speech OFF for this session and continue"/>
+	<string id="mic_calibration_put_on_headset" text="Put on your headset as illustrated."/>
+	<string id="mic_calibration_during_instructions" text="Please speak in a normal voice.
+Say: 1, 2, 3, 4, 5."/>
+	<string id="mic_calibration_speech_settings" text="Speech Settings"/>
+	<string id="mic_calibration_device_settings" text="Device Settings"/>
+	<string id="mic_calibration_change_button" text="Change"/>
+	<string id="mic_calibration_speech_recognition_state" text="Speech Recognition is "/>
+	<string id="mic_calibration_speech_precision_state" text="Speech Precision is "/>
+	<string id="mic_calibration_voice_type_state" text="Voice Type: "/>
+	<string id="mic_calibration_voice_type_age_over_13_state" text="over 13 years old"/>
+	<string id="mic_calibration_voice_type_age_under_14_state" text="under 14 years old"/>
+	<string id="mic_calibration_mic_setting" text="Microphone: "/>
+	<string id="mic_calibration_speakers_setting" text="Speakers: "/>
+	<string id="mic_calibration_start_calibration" text="Begin"/>
+	<string id="mic_calibration_stop_calibration" text="Stop"/>
+<string id="mic_calibration_retry_calibration" text="Repeat Setup"/>
+	<string id="mic_calibration_success" text="Microphone setup successful!"/>
+	<string id="mic_calibration_error" text="Microphone setup was unsuccessful."/>
+	<string id="speech_recognition_title" text="Speech Recognition Settings"/>
+	<string id="speech_recognition_age_info" text="Rosetta Stone responds best when it knows your voice type."/>
+	<string id="speech_recognition_precision_level_0" text="Level 0"/>
+	<string id="speech_recognition_precision_level_1" text="Level 1"/>
+	<string id="speech_recognition_precision_level_2" text="Level 2"/>
+	<string id="speech_recognition_precision_level_3" text="Level 3"/>
+	<string id="speech_recognition_precision_level_4" text="Level 4"/>
+	<string id="speech_recognition_precision_level_5" text="Level 5"/>
+	<string id="speech_recognition_precision_level_6" text="Level 6"/>
+	<string id="speech_recognition_precision_level_7" text="Level 7"/>
+	<string id="speech_recognition_precision_level_8" text="Level 8"/>
+	<string id="speech_recognition_precision_level_9" text="Level 9"/>
+	<string id="speech_recognition_precision_level_10" text="Level 10"/>
+	<string id="speech_recognition_precision_level_0_name" text="Easy"/>
+	<string id="speech_recognition_precision_level_1_name" text=""/>
+	<string id="speech_recognition_precision_level_2_name" text=""/>
+	<string id="speech_recognition_precision_level_3_name" text="Normal"/>
+	<string id="speech_recognition_precision_level_4_name" text=""/>
+	<string id="speech_recognition_precision_level_5_name" text=""/>
+	<string id="speech_recognition_precision_level_6_name" text=""/>
+	<string id="speech_recognition_precision_level_7_name" text=""/>
+	<string id="speech_recognition_precision_level_8_name" text=""/>
+	<string id="speech_recognition_precision_level_9_name" text=""/>
+	<string id="speech_recognition_precision_level_10_name" text="Difficult"/>
+    <string id="device_settings_title" text="Device Settings"/>
+    <string id="device_settings_selected_mic" text="Selected Microphone:"/>
+    <string id="device_settings_selected_speakers" text="Selected Speakers:"/>
+    <string id="device_settings_refresh_button" text="Refresh"/>
+    <string id="device_settings_speaker_volume" text="Speaker Volume"/>
+            <!-- End new workflow strings -->
+
+	<string id="mic_calibration_sound_volume_label" text="Adjust sound volume" />
+	<string id="mic_calibration_speech_precision" text="Set speech precision level" />
+	<string id="mic_calibration_help" text="Help"/>
+	<string id="mic_calibration_playback" text="Play recorded audio"/>
+	<string id="mic_calibration_stop_playback" text="Stop"/>
+	
+	<string id="mic_calibration_at_tone_say" text="Put on your headset as illustrated. Click Continue to begin. At the tone please say: &quot;1, 2, 3, 4, 5&quot; in a normal speaking voice."/>
+	<string id="mic_calibration_text_to_speak" text="Say: 1, 2, 3, 4, 5"/>
+	<string id="mic_calibration_text_act_label" text="1, 2, 3, 4, 5"/>
+	<string id="mic_calibration_change_audio" text="Continue to Audio Setup"/>
+	<string id="mic_calibration_cancel_mic_setup" text="Cancel Microphone Setup"/>
+	<string id="mic_calibration_retry_speech" text="Microphone setup was not successful.
+Click Repeat Setup to try again."/>
+	<string id="mic_calibration_try_again" text="Microphone setup was not successful.
+Click Repeat Setup to try again."/>
+	<string id="mic_calibration_successful" text="Microphone setup successful.
+Click Continue to save settings."/>
+	<string id="mic_calibration_no_microphones" text="No microphones have been found on your computer. Please attach one and try again, or disable speech to move on."/>
+	<string id="mic_calibration_show_list" text="Available microphones:"/>
+	<string id="speaker_calibration_show_list" text="Available speakers:"/>
+	<string id="mic_calibration_refresh_list" text="Refresh List"/>
+	<string id="mic_calibration_accept_selection" text="Accept Selection"/>
+	<string id="mic_calibration_cancel_selection" text="Cancel Selection"/>
+	<string id="mic_calibration_continue_to_act" text="Continue"/>
+	<string id="mic_calibration_skip_calibration" text="Skip Microphone Setup"/>
+	<string id="mic_calibration_turn_off" text="Turn off speech for this session"/>
+	<string id="mic_calibration_turn_off_always" text="Turn off speech always"/>
+	<string id="mic_calibration_help_popup_header" text="Microphone Setup Help"/>
+	<string id="mic_calibration_help_popup_things_to_try" text="If you are having trouble with your microphone setup, please try the following:
+• Make sure your headset is connected and the microphone is not muted.
+• Make sure your headset is selected in the Device Settings.
+• Position the headset as shown in the illustration. The microphone must be near your mouth to detect your speech.
+• Reduce noise in your environment.
+• Speak clearly and at a normal pace."/>
+	<string id="mic_calibration_help_popup_system_settings_mac" text="Check the settings in your system:
+• Click Apple &gt; System Preferences and click on Sound."/>
+	<string id="mic_calibration_help_popup_system_settings_pc" text="Check the settings in your system:
+• Sound settings can be located by clicking Start &gt; Settings &gt; Control Panel."/>
+	<string id="mic_calibration_help_popup_adjust_settings" text="Adjust the following system settings:
+• Be sure the microphone input level is not set too low.
+• Verify that the microphone is selected as the current input device.
+• Verify that the sound card for the computer is properly installed and configured."/>
+	<string id="mic_calibration_help_popup_see_documentation" text="See your system documentation for further information."/>
+	<string id="mic_calibration_help_popup_ok" text="Continue" />
+	
+	<!-- Product Registration -->
+	<string id="registration_title" text="{$brandName} is currently unregistered."/>
+	<string id="register_unregistered_subtext" text="We encourage you to register for more effective technical support and updates."/>
+	<string id="register_now_button" text="Register now"/>
+	<string id="register_now_subtext" text="This will open a new web browser window."/>
+	<string id="register_later_button" text="Register later"/>
+	<string id="register_later_subtext" text="Remind me in two weeks."/>
+	<string id="never_register_button" text="Never register"/>
+	
+	<!-- Product Activation -->
+	<string id="product_activation_title" text="Product Activation"/>
+	<string id="product_activation_activated_tab" text="Activated Products"/>
+	<string id="product_activation_unactivated_tab" text="Unactivated Products"/>
+	<string id="product_activation_continue_button" text="Continue"/>
+	<string id="product_activation_invalid_id" text="The Activation ID entered for {$courseTitle} is not correct.  Please Re-enter." />
+	<string id="product_activation_instructions" text="Activate your {$brandName} language product to access all the lessons. You have access to limited lessons until you activate. Activating by Internet is fastest and easiest. Enter the Activation ID that came with your product (only one ID needed for a multi-level set). Click Activate. If you do not have an Internet connection, you will be prompted to activate by phone."/>
+	<string id="product_activation_activate_languages_label" text="Languages to Activate"/>
+	<string id="product_activation_activated_languages_label" text="Activated Languages"/>
+	<string id="product_activation_activate_button" text="Activate"/>
+	<string id="product_activation_activate_later_button" text="Activate Later"/>
+	<string id="product_activation_connecting" text="Connecting to activation server..."/>
+	<string id="product_activation_activating_product" text="Attempting to activate {$product}..."/>	
+	<string id="product_activation_activating_products" text="Attempting to activate product(s)..."/>
+	<string id="product_activation_phone_instructions_title" text="Phone Activation Instructions"/>
+	<string id="product_activation_phone_instructions" text="Please contact Customer Support for assistance with your phone activation. See your Quick Start card or visit {$baseWebURL}/Support for contact information."/>
+<string id="product_activation_phone_instructions_phone_number" text="Please contact Customer Support for assistance with your phone activation. In the US, please call (866) 482-9807.  In Europe, please call +44 0808 178 5192." />
+	<string id="product_activation_phone_activation_id" text="Activation ID"/>
+	<string id="product_activation_phone_request_code" text="Request Code"/>
+	<string id="product_activation_phone_response_code" text="Response Code"/>
+	<string id="product_activation_phone_activate" text="Activate"/>
+	<string id="product_activation_progress" text="Please wait." />
+	<string id="product_activation_phone_activate_confirm_description" text="It appears as if you do not have a network connection.  Please check your Internet connection and click Return to Home Screen and Try Again.  If you do not have access to the Internet, click Activate by Phone." />
+	<string id="product_activation_phone_activate_confirm_primary" text="Activate by Phone" />
+	<string id="product_activation_phone_activate_confirm_secondary" text="Return to Home Screen and Try Again" />
+	<string id="product_activation_phone_activate_confirm_secondary_description" text="On the {$brandName} Home Screen, choose Activate Products from the Preferences menu in the upper right corner." />
+	<string id="product_activation_activation_success_description" text="Your product(s) have been activated." />
+	<string id="product_activation_activation_success_primary" text="Continue" />
+	<string id="product_activation_activation_failure_description" text="An error occurred while activating your product(s).
+Would you like to verify your response code and try again?" />
+	<string id="product_activation_activation_failure_primary" text="Yes, try again" />
+	<string id="product_activation_activation_failure_secondary" text="No, continue to {$brandName}" />
+	
+	<string id="fatal_application_error" text="There was an error in the application." />
+	<string id="fatal_player_error" text="There was an error in the player." />
+	<string id="warning" text="There was a minor error.  Click OK to continue." />
+	<string id="dismiss_warning" text="Ok" />
+	<string id="dismiss_player_error" text="Return to Home Screen" />
+	<string id="dismiss_app_error" text="Exit the Application" />
+	<string id="feedback_error" text="Send Feedback Report" />
+	<string id="speech_engine_disabled_confirmation" text="A speech recognition engine was not detected. Speech recognition will be disabled."/>
+	
+	<string id="error_1100" text="An error occurred.  Speech Recognition will be disabled for this session." />
+	<string id="error_1117" text="An error occurred in the speech component.  Please restart your browser and start {$brandName} again. If the problem persists, please restart your computer." />
+
+<string id="error_1119" text="The speech component could not be downloaded.  Possible causes include permissions or network communications issues.  For assistance, contact your system administrator or {$brandName} Customer Support.  Go to {$baseWebURL}/Support for more information." />	
+	<string id="error_1129" text="1000: One or more files required for Speech Recognition are missing or unreadable. Speech Recognition will be disabled for this session." />
+	<string id="error_1130" text="1001: One or more files required for Speech Recognition are missing or unreadable. Speech Recognition will be disabled for this session." />
+	<string id="error_1131" text="1002: One or more files required for Speech Recognition are missing or unreadable. Speech Recognition will be disabled for this session." />
+	<string id="error_1132" text="1003: One or more files required for Speech Recognition are missing or unreadable. Speech Recognition will be disabled for this session." />
+<string id="error_1212" text="{$brandName} cannot connect to the speech component.  Please restart your browser and start {$brandName} again. If the problem persists, please restart your computer." />
+
+
+	<string id="error_2122" text="Database is out of date. Please contact Customer Support. See your Quick Start card or visit {$baseWebURL}/Support for contact information." />
+	<string id="error_2124" text="Database is from a newer version of {$brandName}. Please update {$brandName} or contact Customer Support. See your Quick Start card or visit {$baseWebURL}/Support for contact information." />
+	<string id="error_2125" text="Database is out of date and could not be updated. Please contact Customer Support. See your Quick Start card or visit {$baseWebURL}/Support for contact information." />
+	<string id="error_3100" text="This screen has bad content and must be skipped." />
+	<string id="error_3221" text="This language content requires an update of {$brandName}."/>
+
+<string id="error_3301" text="You do not have any available Curricula for this Language Level, please contact your {$brandName} Classroom or Enterprise Administrator." />	
+<string id="error_4117" text="The course contents PDF was not found." />
+
+
+	<string id="error_4226" text="{$brandName} is having trouble communicating over the Internet.  If this message persists, please check your firewall settings and temporarily reset the firewall to a lower security level." />
+	<string id="error_5000" text="There was an error with network communication." />
+	<string id="error_5119" text="{$brandName} is unable to communicate with the server. Please update {$brandName} and try again." />
+	<string id="error_5311" text="Your session has been ended due to inactivity." />
+	<string id="error_5413" text="Invalid license name or password. Please re-enter your details."/>
+	<string id="error_5414" text="Your account is already in use. This may be due to Internet issues or not using the 'Sign out' button to exit a recent lesson. Please try again in a few minutes."/>
+	<string id="error_7111" text="Invalid Username or Password. Please try again." />
+	<string id="error_7112" text="Connection to {$brandName} Manager Server failed."/>
+	<string id="error_7113" text="Unable to create new user." />
+	<string id="error_7114" text="Unable to delete user." />
+	<string id="error_7201" text="You can't assign this Curriculum to this Learner.  The Language Level for the Curriculum is not associated with a Group the Learner is a member of."/>
+	<string id="error_8114" text="Unable to contact Rosetta Stone Manager License Daemon (lmgrd).  Contact your system administrator." />
+	<string id="error_8800" text="Invalid Activation ID.  Please verify your Activation ID and re-enter." />
+	<string id="error_8811" text="The Activation ID was not recognized. Please verify your Activation ID and re-enter. If problem persists after multiple attempts please contact Customer Support. See your Quick Start card or visit {$baseWebURL}/Support for contact information." />
+	<string id="error_8812" text="This Activation ID is not valid. It may be installed on another computer.  Please verify your Activation ID and re-enter." />
+	<string id="error_8813" text="The Activation ID does not match the product selected.  Please verify your Activation ID and re-enter." />
+	<string id="error_8815" text="The Activation ID you have entered has already been used to activate another product on this computer.  Please enter the correct Activation ID for the product you want to activate." />
+	<string id="error_9000" text="There was an error in installation.  Please re-install and try again." />
+	<string id="error_9114" text="There was an error installing the language files.  Please try again or contact Customer Support. See your Quick Start card or visit {$baseWebURL}/Support for contact information." />
+
+	<!-- Edition Strings -->
+	<string id="SK-NA-NA-NA-HS-NA-NA-Y-3_title_key" text="{$brandName} Homeschool"/>
+	<string id="local_login_homeshool_admin_button" text="Launch {$brandName} Homeschool"/>
+	<string id="local_login_create_parent" text="Create a parent:"/>
+	<string id="homeschool_return_to_login" text="Return to Sign In Screen"/>	
+	<string id="homeschool_assign_curriculum" text="Assign/edit Curriculum"/>
+	<string id="homeschool_progress_report" text="Progress Report"/>
+	<string id="homeschool_no_curriculum" text="No Curriculum set"/>
+	<string id="homeschool_no_progress" text="No progress available"/>
+	<string id="homeschool_dashboard" text="Homeschool Dashboard"/>
+	<string id="homeschool_current_activity_and_curriculum" text="Current Activity and Curriculum"/>
+	<string id="homeschool_user_id" text="Users"/>
+	
+	<string id="homeschool_tooltip_print" text="Print Reports"/>
+	<string id="homeschool_tooltip_export" text="Export Reports"/>
+
+	<string id="homeschool_print_report" text="Print Progress Reports"/>
+	<string id="homeschool_export_report" text="Export Progress Reports"/>
+	<string id="homeschool_edit_curriculum_headline" text="Edit Learner's Curriculum"/>
+	<string id="homeschool_change_curriculum" text="Change Learner's Current Curriculum"/>
+	<string id="homeschool_save_changed_curriculum" text="Save Curriculum Changes"/>
+	<string id="homeschool_revert_changed_curriculum " text="Revert Curriculum Changes"/>
+	<string id="homeschool_unit_letter_number" text="U {$unitNumber}"/>
+	<string id="homeschool_lesson_letter_number" text="L {$lessonNumber}"/>
+	<string id="homeschool_unit_lesson_path_type" text="{$unitLetterNumber} {$lessonLetterNumber} {$pathType}"/>
+	<string id="homeschool_language_level_curriculum_time" text="{$lastUsedLanguage} {$currentCurriculum} | {$lastAccessedDate}"/>
+	<string id="homeschool_language_level_curriculum_no_date" text="{$lastUsedLanguage} {$currentCurriculum}"/>
+	
+	<!-- Homeschool reporting keys -->
+	<string id="homeschool_report_headline" text="Progress Reports"/>
+	<string id="homeschool_report_return_to_dashboard" text="Return to Dashboard"/>	
+	<string id="homeschool_report_current_activity" text="Current Activity"/>
+	<string id="homeschool_report_overall_score" text="Overall Score"/>
+	<string id="homeschool_report_progress" text="Progress"/>
+	<string id="homeschool_report_time_required" text="Time Spent"/>
+	<string id="homeschool_report_required_hours" text="{$timeRequired} hours"/>
+	<string id="homeschool_report_date" text="Date"/>
+	<string id="homeschool_report_unit_lesson" text="Unit/Lesson"/>
+	<string id="homeschool_report_activity" text="Activity"/>
+	<string id="homeschool_report_completed_score" text="Score in Completed Activites"/>
+	<string id="homeschool_report_status" text="Status"/>
+	<string id="homeschool_report_date_completed" text="Last Attempt"/>
+	<string id="homeschool_report_attempts" text="Attempts"/>
+	<string id="homeschool_report_status_completed" text="Completed" />
+	<string id="homeschool_report_status_not_started" text="Not Yet Started" />
+	<string id="homeschool_report_not_applicable" text="N/A" />
+	<string id="homeschool_report_time_spent_time_field" text="{$hours}:{$minutes}m" />
+	<string id="homeschool_report_printed_page_number" text="Page {$pageNumber}" />
+	<string id="homeschool_report_printed_language_label" text="Language: {$languageLevel}" />
+	<string id="homeschool_report_printed_learner_label" text="Learner: {$userName}" />
+	<string id="homeschool_report_saved_dialog" text="Your Progress Report was saved to {$filename}" />
+	
+	<!-- Homeschool Activation -->
+	<string id="homeschool_activation_activated" text="{$brandName} Homeschool Activation" />
+	<string id="homeschool_activation_activate" text="Activate {$brandName} Homeschool" />
+	<string id="homeschool_activation_click_here" text="Click here to also activate {$brandName} Homeschool" />
+	<string id="homeschool_activation_instructions" text="You will have a separate activation ID for {$brandName} Homeschool if you have purchased the option.  These features support parents in a homeschool environment." />
+	<string id="homeschool_phone_activation_title" text="Homeschool Phone Activation Instructions" />
+	<string id="homeschool_phone_activation_instructions" text="Please contact Customer Support for assistance with your phone activation. See your Quick Start card or visit {$baseWebURL}/Support for contact information." />
+<string id="homeschool_phone_activation_instructions_phone_number" text="Please contact Customer Support for assistance with your phone activation. In the US, please call (866) 482-9807.  In Europe, please call +44 0808 178 5192." />
+
+	<!-- Additional Strings -->
+	<string id="needs_admin_description" text="You must have administrative permissions to use this feature."/>
+	<string id="needs_admin_button_cancel" text="Cancel"/>
+	<string id="change_language_specific_settings" text="Change language-specific settings"/>
+
+	<string id="keyboard_help_description" text="Click an Accent (black-outlined) key or the Shift key to access additional characters.
+Click Enter to check your score.
+Click the Caps Lock key to turn all-capitals on or off."/>
+
+	<string id="speech_analysis_slowest" text="Slowest"/>
+	<string id="speech_analysis_slow" text="Slow"/>
+	<string id="speech_analysis_normal" text="Normal"/>
+
+	<string id="data_install_location_Selection_description" text="Install Language files to this location:"/>
+	<string id="data_install_location_Selection_warning_description" text="NOTE:  All Language files will be stored in this folder (up to 600 MB per Language Level).  
+Choose a location with enough space for all Levels you intend to install. 
+You cannot change this location later."/>
+	<string id="data_install_location_Selection_button_accept" text="Accept"/>
+	<string id="data_install_location_Selection_button_choose_different" text="Choose a different location"/>
+
+	<string id="demo_activity_not_available_description" text="This Activity is not available."/>
+
+	<string id="application_already_running" text="{$brandName} is already running. This application will now close." />
+	
+	<string id="demo_unavailable_content" text="This content is not available in the product demo. To purchase the full product, please go to {$baseWebURL}."/>
+	<string id="demo_unavailable_content_online" text="This content is not available in the product demo." />
+	<string id="network_unavailable_content" text="This content is not available. Please contact your administrator for access to this content."/>
+	<string id="demo_data_name" text="demonstration"/>
+	<string id="no_sound_output_device_found" text="{$brandName} could not find a sound output device.  Please check your sound settings and restart {$brandName}."/>
+	<string id="homeschool_loading_curricula" text="Loading Homeschool Curricula..." />
+</locale>
