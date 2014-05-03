@@ -1,0 +1,38 @@
+<imagemap>
+Image:Main-Route.png|
+
+rect 335 10 428 58 [[Tsukihime:s20|Блок 20]]
+rect 317 99 447 148 [[Tsukihime:s21|Блок 21]]
+rect 456 97 588 150 [[Tsukihime:s22|Блок 22]]
+rect 410 305 502 354 [[Tsukihime:s23|Блок 23]]
+rect 138 445 231 494 [[Tsukihime:s24]]
+rect 590 380 683 428 [[Tsukihime:s25]]
+rect 590 445 683 494 [[Tsukihime:s26]]
+rect 593 511 714 560 [[Tsukihime:s27]]
+rect 377 379 470 428 [[Tsukihime:s28]]
+rect 377 445 470 495 [[Tsukihime:s29]]
+rect 339 511 475 576 [[Tsukihime:s30]]
+rect 477 603 583 651 [[Tsukihime:s31]]
+rect 755 710 848 759 [[Tsukihime:s33]]
+rect 575 726 683 776 [[Tsukihime:s34]]
+rect 385 718 478 768 [[Tsukihime:s35]]
+rect 384 783 478 833 [[Tsukihime:s502]]
+rect 574 784 668 833 [[Tsukihime:s89]]
+rect 475 1013 569 1064 [[Tsukihime:s36]]
+rect 483 1104 577 1155 [[Tsukihime:s37]]
+rect 335 1104 428 1153 [[Tsukihime:s201]]
+rect 271 1216 411 1272 [[Tsukihime:s202]]
+rect 638 1215 767 1272 [[Tsukihime:s39]]
+rect 575 1327 668 1376 [[Tsukihime:s40]]
+rect 459 1326 551 1376 [[Tsukihime:s41]]
+rect 457 1408 552 1458 [[Tsukihime:s42]]
+rect 242 1540 372 1589 [[Tsukihime:s43]]
+rect 441 1540 570 1589 [[Tsukihime:s44]]
+rect 655 1540 751 1588 [[Tsukihime:s45]]
+rect 558 1746 652 1795 [[Tsukihime:s46]]
+rect 286 1746 380 1795 [[Tsukihime:s47]]
+rect 268 1853 397 1904 [[Tsukihime:Светлая_Сторона_Луны]]
+rect 853 1844 983 1895 [[Tsukihime:Темная_Сторона_Луны]]
+
+desc bottom-left
+</imagemap>
