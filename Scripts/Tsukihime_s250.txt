@@ -1,0 +1,31 @@
+﻿
+
+
+
+*s250
+
+
+bg "image\bg\bg_06b.jpg",%type_nowaitdisp
+
+` Никаких планов у меня на сегодня нет, поэтому я решаю пойти домой.@
+
+
+bg "image\bg\ima_10.jpg",%type_lcartain_slw
+!w1000
+
+bg "image\bg\bg_32b.jpg",%type_lcartain_slw
+
+` Поднявшись на холм, я возвращаюсь в особняк.@
+` Ещё даже пяти часов нет.@
+` До обеда осталось два часа, которые я проведу, отдыхая в свой комнате...\
+
+
+bg "image\bg\ima_10.jpg",%type_lcartain_mid
+!w1000
+
+
+
+return
+
+
+

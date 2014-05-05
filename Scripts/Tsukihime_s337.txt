@@ -1,0 +1,27 @@
+﻿
+
+
+*s337
+
+
+
+; ?? : ?? : ?????(?)<????>
+bg "image\bg\bg_40b.jpg",%type_nowaitdisp
+
+` Что ж, делать мне особо нечего, так что я просто отдохну у себя в комнате.\
+
+; ???<?????(?)>
+bg "image\bg\ima_10.jpg",%type_tcartain_mid
+
+;CD-DA??
+playstop
+
+!w2000
+
+
+
+return
+
+
+
+
