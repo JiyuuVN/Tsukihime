@@ -75,7 +75,7 @@ ld c,":a;image\tachi\his_t23.jpg",%type_lshutter_fst
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` Хиуи исчезает в восточном крыле поместья.\
+` Хисуи исчезает в восточном крыле поместья.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
