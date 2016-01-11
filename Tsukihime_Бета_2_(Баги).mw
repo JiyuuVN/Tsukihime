@@ -1,8 +1,0 @@
-Стр. 3647
-<pre>
-select `1. Greet Akiha.`, *f54,
-	`2. Greet Kohaku-san.`, *f55,
-	`3. Greet both of them.`, *f56
-</pre>
-
-Перевести меню.
